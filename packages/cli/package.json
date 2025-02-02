@@ -1,0 +1,49 @@
+{
+  "name": "@telegram/cli",
+  "version": "0.0.1",
+  "description": "telegram CLI",
+  "main": "./src/index.ts",
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix .",
+    "format": "prettier --cache --write .",
+    "build": "rimraf dist && tsc",
+    "install-chrome": "puppeteer browsers install chrome",
+    "install-cli": "pnpm link --global .",
+    "preinstall-cli": "pnpm run build"
+  },
+  "dependencies": {
+    "@telegram/sdk": "workspace:0.0.1",
+    "@oclif/core": "4.2.5",
+    "figlet": "1.8.0",
+    "puppeteer": "24.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.19.0",
+    "@types/figlet": "1.7.0",
+    "@types/node": "22.13.0",
+    "eslint": "9.19.0",
+    "globals": "15.14.0",
+    "oclif": "4.17.22",
+    "prettier": "3.4.2",
+    "rimraf": "6.0.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3",
+    "typescript-eslint": "8.22.0"
+  },
+  "keywords": [
+    "telegram",
+    "cli"
+  ],
+  "bin": {
+    "telegram-cli": "./bin/run.js"
+  },
+  "oclif": {
+    "bin": "telegram-cli",
+    "commands": "./dist/commands",
+    "dirname": "cli",
+    "topicSeparator": " "
+  }
+}
