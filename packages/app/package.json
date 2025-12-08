@@ -1,5 +1,5 @@
 {
-	"name": "@telegram/frontend",
+	"name": "@telegram/app",
 	"version": "0.0.1",
 	"private": true,
 	"description": "Telegram Mini App",
