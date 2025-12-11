@@ -55,7 +55,7 @@
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "3.3.3",
-		"@tailwindcss/postcss": "4.1.17",
+		"@tailwindcss/postcss": "4.1.18",
 		"@types/jsonwebtoken": "9.0.10",
 		"@types/node": "25.0.0",
 		"@types/react": "19.2.7",
@@ -70,7 +70,7 @@
 		"prettier-plugin-tailwindcss": "0.7.2",
 		"prisma": "7.1.0",
 		"rimraf": "6.1.2",
-		"tailwindcss": "4.1.17",
+		"tailwindcss": "4.1.18",
 		"typescript": "5.9.3"
 	}
 }
