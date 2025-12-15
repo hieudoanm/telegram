@@ -16,7 +16,7 @@
 		"type": "git",
 		"url": "git+ssh://git@github.com/hieudoanm/tg.git"
 	},
-	"license": "MIT",
+	"license": "GPL-3.0",
 	"author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
 	"packageManager": "pnpm@10.26.0",
 	"scripts": {
