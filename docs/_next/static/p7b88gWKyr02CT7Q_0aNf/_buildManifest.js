@@ -1,42 +1,42 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/961cbd6841e48ddf.js"
+    "static/chunks/fb95941c87d9be96.js"
   ],
   "/404": [
-    "static/chunks/b072b823ee3126a4.js"
+    "static/chunks/d52ef4574fd1844c.js"
   ],
   "/500": [
-    "static/chunks/ebaaa17af22d7aeb.js"
+    "static/chunks/b89909ee54ba17fa.js"
   ],
   "/_error": [
-    "static/chunks/91c56a271b1768a8.js"
+    "static/chunks/3788df1c5fd5e912.js"
   ],
   "/games": [
-    "static/chunks/70b503da5b635bc6.js"
+    "static/chunks/112eafbf78452676.js"
   ],
   "/games/[gameId]": [
-    "static/chunks/c8b61842336e64a8.js"
+    "static/chunks/65e76e496e243ec1.js"
   ],
   "/news": [
-    "static/chunks/654a4275cf79996f.js"
+    "static/chunks/28753f7051024215.js"
   ],
   "/news/[articleId]": [
-    "static/chunks/d725cba3ede0392d.js"
+    "static/chunks/83a8e05d8a3344e4.js"
   ],
   "/profile": [
-    "static/chunks/ec5451c7956280d1.js"
+    "static/chunks/721d484df5b4002c.js"
   ],
   "/profile/privacy-policy": [
-    "static/chunks/2254f1971e0b2aa5.js"
+    "static/chunks/69dbf7529d6794ff.js"
   ],
   "/profile/terms-of-use": [
-    "static/chunks/7ecfd5469d2cb0d0.js"
+    "static/chunks/4154861989cf659d.js"
   ],
   "/store": [
-    "static/chunks/1a24ea8b78c62d05.js"
+    "static/chunks/d246b0a89b58d01f.js"
   ],
   "/store/[itemId]": [
-    "static/chunks/1380c37aa62b45b1.js"
+    "static/chunks/bd5a32e0ead55083.js"
   ],
   "__rewrites": {
     "afterFiles": [],
