@@ -26,7 +26,7 @@
 		"format": "prisma format && prettier --cache --write .",
 		"prisma:generate": "prisma format && prisma generate",
 		"prelint": "pnpm prisma:generate",
-		"lint": "eslint .",
+		"lint": "eslint . --fix",
 		"predev": "pnpm prisma:generate && kill-port 3000",
 		"dev": "next dev",
 		"prebuild": "pnpm prisma:generate && rimraf .next ../../docs",
