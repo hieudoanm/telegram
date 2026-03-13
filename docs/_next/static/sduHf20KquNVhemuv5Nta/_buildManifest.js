@@ -11,11 +11,14 @@ self.__BUILD_MANIFEST = {
   "/_error": [
     "static/chunks/103610abc91f2806.js"
   ],
+  "/app": [
+    "static/chunks/6de7c5d75a59f90c.js"
+  ],
   "/games": [
-    "static/chunks/4bb7e63fefc0bcfb.js"
+    "static/chunks/417fe77ee5b3e4c1.js"
   ],
   "/games/[gameId]": [
-    "static/chunks/035fcd13509615ed.js"
+    "static/chunks/fc6780e6cc601ef0.js"
   ],
   "/news": [
     "static/chunks/00c35dfd627e2096.js"
@@ -24,7 +27,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/d2cc55027e2d1680.js"
   ],
   "/profile": [
-    "static/chunks/a302b1f6e783193a.js"
+    "static/chunks/17c87ba23738db6f.js"
   ],
   "/profile/privacy-policy": [
     "static/chunks/a01ac8fbf3a16678.js"
@@ -33,10 +36,10 @@ self.__BUILD_MANIFEST = {
     "static/chunks/986d8ecdf9e54bae.js"
   ],
   "/store": [
-    "static/chunks/5e4793ea64c990d3.js"
+    "static/chunks/121a5e4b84f2468e.js"
   ],
   "/store/[itemId]": [
-    "static/chunks/590cdbc348ffc5de.js"
+    "static/chunks/4e4a74289aa2195e.js"
   ],
   "/version": [
     "static/chunks/062949468cb99da5.js"
@@ -54,6 +57,7 @@ self.__BUILD_MANIFEST = {
     "/_error",
     "/api/rest/webhook",
     "/api/trpc/[trpc]",
+    "/app",
     "/games",
     "/games/[gameId]",
     "/news",
