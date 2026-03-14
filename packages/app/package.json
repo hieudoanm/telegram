@@ -23,12 +23,12 @@
 		"node": "25.8.1"
 	},
 	"scripts": {
+		"lint": "eslint . --fix",
 		"format": "prisma format && prettier --cache --write .",
 		"prisma:generate": "prisma format && prisma generate",
 		"prelint": "pnpm prisma:generate",
-		"lint": "eslint . --fix",
 		"predev": "pnpm prisma:generate && kill-port 3000",
-		"dev": "next dev",
+		"dev": "next dev --turbopack",
 		"prebuild": "pnpm prisma:generate && rimraf .next ../../docs",
 		"build": "next build",
 		"postbuild": "touch ../../docs/.nojekyll",
