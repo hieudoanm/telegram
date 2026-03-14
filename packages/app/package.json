@@ -29,13 +29,13 @@
 		"prelint": "pnpm prisma:generate",
 		"predev": "pnpm prisma:generate && kill-port 3000",
 		"dev": "next dev --turbopack",
+		"pretest": "pnpm prisma:generate && rimraf coverage && jest --clearCache",
+		"test": "jest",
 		"prebuild": "pnpm prisma:generate && rimraf .next ../../docs",
 		"build": "next build",
 		"postbuild": "touch ../../docs/.nojekyll",
 		"prestart": "pnpm prisma:generate && kill-port 3000",
-		"start": "next start",
-		"pretest": "pnpm prisma:generate && rimraf coverage",
-		"test": "jest"
+		"start": "next start"
 	},
 	"dependencies": {
 		"@prisma/client": "7.5.0",
