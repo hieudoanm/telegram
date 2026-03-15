@@ -11,10 +11,10 @@ export const router = t.router;
 export const publicProcedure = t.procedure;
 
 export const privateMiddleware = t.middleware(({ ctx, next }) => {
-	if (!ctx.user) throw new TRPCError({ code: 'UNAUTHORIZED' });
-	return next({
-		ctx: { user: ctx.user },
-	});
+  if (!ctx.user) throw new TRPCError({ code: 'UNAUTHORIZED' });
+  return next({
+    ctx: { user: ctx.user },
+  });
 });
 
 export const privateProcedure = t.procedure.use(privateMiddleware);
