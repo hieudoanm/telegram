@@ -1,87 +1,178 @@
-# Telegram Mini App
+# 🚀 [Tg](https://hieudoanm.github.io/tg/)
 
-## Table of Contents
+## 📚 Table of Contents
 
-- [Telegram Mini App](#telegram-mini-app)
-  - [Table of Contents](#table-of-contents)
-  - [Command Line Interface (CLI)](#command-line-interface-cli)
-  - [Mini App](#mini-app)
-    - [Demo](#demo)
-    - [Techstack](#techstack)
-    - [Screenshots](#screenshots)
-      - [Home](#home)
-      - [Games](#games)
-        - [Game](#game)
-      - [Store](#store)
-        - [Product](#product)
-      - [News](#news)
-        - [News Article](#news-article)
-      - [Profile](#profile)
+- [🚀 Tg](#-tg)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [📖 1. Overview](#-1-overview)
+  - [✨ 2. Features](#-2-features)
+  - [🎥 3. Demo](#-3-demo)
+  - [🚀 4. Usage](#-4-usage)
+  - [🛠️ 5. Development Stack](#️-5-development-stack)
+    - [🖥️ 5.1 Development Tools](#️-51-development-tools)
+    - [⚙️ 5.2 Monorepo](#️-52-monorepo)
+    - [💻 5.3 Application](#-53-application)
+      - [⚛️ 5.3.1 Front-end](#️-531-front-end)
+      - [📡 5.3.2 Back-end](#-532-back-end)
+    - [📟 5.4 CLI (Command-line Interface)](#-54-cli-command-line-interface)
+  - [📄 6. License](#-6-license)
 
-## Command Line Interface (CLI)
+## 📖 1. Overview
 
-| No  | CLI  | Category  | Action   |
-| --- | ---- | --------- | -------- |
-| 01  | `tg` | `message` | `send`   |
-| 02  | `tg` | `webhook` | `set`    |
-| 03  | `tg` | `webhook` | `info`   |
-| 04  | `tg` | `webhook` | `delete` |
+Tg is a focused project in this monorepo that delivers a practical tool with a clean user experience across platforms.
 
-## Mini App
+## ✨ 2. Features
 
-### Demo
+1. [x] Core functionality tailored to Tg
+2. [x] Web experience for quick access
+3. [x] CLI distribution for automation workflows
+4. [x] Mobile-ready build targets
+5. [x] Desktop-ready build targets
 
-[Hieu Doan Bot - Telegram Mini App](https://t.me/hieu_doan_bot/telegram_mini_app)
+## 🎥 3. Demo
 
-### Techstack
+- 🌐 [Live Demo](https://hieudoanm.github.io/tg/)
 
-1. [TypeScript](https://www.typescriptlang.org/)
-2. [Node.js](https://nodejs.org/en)
-3. [pnpm](https://pnpm.io/)
-4. [ESLint](https://eslint.org/)
-5. [Prettier](https://prettier.io/)
-6. [Jest](https://jestjs.io/)
-7. [Next.js](https://nextjs.org/)
-8. [Tailwind CSS](https://tailwindcss.com/)
-9. [tRPC](https://trpc.io/)
-10. [Zod](https://zod.dev/)
-11. [TON](https://ton.org/)
-12. [Prisma](https://www.prisma.io/)
-13. [PostgreSQL](https://www.postgresql.org/)
-14. [Docker](https://www.docker.com/)
-15. [GitHub Actions](https://github.com/features/actions)
-16. [Vercel](https://vercel.com)
+## 🚀 4. Usage
 
-### Screenshots
+- 🌐 [Web](https://hieudoanm.github.io/tg/)
+- 💻 [CLI](https://github.com/hieudoanm/tg/releases)
+- 📱 [Mobile](https://github.com/hieudoanm/tg/releases)
+- 🖥️ [Desktop](https://github.com/hieudoanm/tg/releases)
 
-#### Home
+## 🛠️ 5. Development Stack
 
-![home](./images/screenshots/home.png)
+### 🖥️ 5.1 Development Tools
 
-#### Games
+| No  | Group | Technology                 | GitHub              |
+| --- | ----- | -------------------------- | ------------------- |
+| 1   | IDE   | [Antigravity][antigravity] |                     |
+| 2   | IDE   | [Cursor][cursor]           | [GitHub][gh-cursor] |
+| 3   | Agent | [Claude][claude]           | [GitHub][gh-claude] |
 
-![games](./images/screenshots/games.png)
+### ⚙️ 5.2 Monorepo
 
-##### Game
+| No  | Group        | Technology             | GitHub                 |
+| --- | ------------ | ---------------------- | ---------------------- |
+| 1   | Git          | [GitHub][github]       | [GitHub][gh-github]    |
+| 2   | Git Hooks    | [Husky][husky]         | [GitHub][gh-husky]     |
+| 3   | Build        | [Turborepo][turborepo] | [GitHub][gh-turborepo] |
+| 4   | Dependencies | [Renovate][renovate]   | [GitHub][gh-renovate]  |
 
-![game](./images/screenshots/games-game.png)
+### 💻 5.3 Application
 
-#### Store
+#### ⚛️ 5.3.1 Front-end
 
-![store](./images/screenshots/store.png)
+| No  | Group            | Technology                  | GitHub                   |
+| --- | ---------------- | --------------------------- | ------------------------ |
+| 1   | Language         | [TypeScript][typescript]    | [GitHub][gh-typescript]  |
+| 2   | Runtime          | [Node.js][node.js]          | [GitHub][gh-node]        |
+| 3   | Packages Manager | [pnpm][pnpm]                | [GitHub][gh-pnpm]        |
+| 4   | Linter           | [ESLint][eslint]            | [GitHub][gh-eslint]      |
+| 5   | Formatter        | [Prettier][prettier]        | [GitHub][gh-prettier]    |
+| 6   | Testing          | [Jest][jest]                | [GitHub][gh-jest]        |
+| 7   | Framework        | [Next.js][nextjs]           | [GitHub][gh-nextjs]      |
+| 8   | Styling          | [Tailwind CSS][tailwindcss] | [GitHub][gh-tailwindcss] |
+| 9   | UI               | [DaisyUI][daisyui]          | [GitHub][gh-daisyui]     |
+| 10  | Desktop          | [Tauri][tauri]              | [GitHub][gh-tauri]       |
+| 11  | Mobile           | [Capacitor.js][capacitorjs] | [GitHub][gh-capacitorjs] |
+| 12  | Hosting          | [GitHub Pages][githubpages] | [GitHub][gh-githubpages] |
 
-##### Product
+#### 📡 5.3.2 Back-end
 
-![item](./images/screenshots/store-item.png)
+| No  | Group   | Technology                    | GitHub                    |
+| --- | ------- | ----------------------------- | ------------------------- |
+| 1   | BFF     | [tRPC][trpc]                  | [GitHub][gh-trpc]         |
+| 2   | ORM     | [Prisma][prisma]              | [GitHub][gh-prisma]       |
+| 3   | KV      | [Redis][redis]                | [GitHub][gh-redis]        |
+| 4   | JSON    | [MongoDB][mongodb]            | [GitHub][gh-mongodb]      |
+| 5   | SQL     | [PostgreSQL][postgresql]      | [GitHub][gh-postgresql]   |
+| 6   | Auth    | [Auth.js][auth.js]            | [GitHub][gh-authjs]       |
+| 7   | Email   | [Resend][resend]              | [GitHub][gh-resend]       |
+| 8   | Payment | [Lemon Squeezy][lemonsqueezy] | [GitHub][gh-lemonsqueezy] |
 
-#### News
+### 📟 5.4 CLI (Command-line Interface)
 
-![news](./images/screenshots/news.png)
+| No  | Group     | Technology       | GitHub              |
+| --- | --------- | ---------------- | ------------------- |
+| 1   | Language  | [Golang][golang] | [GitHub][gh-golang] |
+| 2   | Framework | [Cobra][cobra]   | [GitHub][gh-cobra]  |
 
-##### News Article
+## 📄 6. License
 
-![article](./images/screenshots/news-article.png)
+[GNU General Public License - Version 3 (GPL-3.0)](https://opensource.org/license/gpl-3.0)
 
-#### Profile
+<!-- Development Tools -->
 
-![profile](./images/screenshots/profile.png)
+[antigravity]: https://antigravity.google/
+[cursor]: https://cursor.com/
+[claude]: https://claude.ai/
+
+[gh-cursor]: https://github.com/cursor/cursor
+[gh-claude]: https://github.com/anthropics/claude-code
+
+<!-- Monorepo -->
+
+[github]: https://github.com/
+[husky]: https://typicode.github.io/husky/
+[turborepo]: https://turborepo.org/
+[renovate]: https://www.mend.io/renovate/
+
+[gh-github]: https://github.com/github
+[gh-husky]: https://github.com/typicode/husky
+[gh-turborepo]: https://github.com/vercel/turborepo
+[gh-renovate]: https://github.com/renovatebot/renovate
+
+<!-- Application -->
+
+[typescript]: https://www.typescriptlang.org/
+[node.js]: https://nodejs.org/
+[pnpm]: https://pnpm.io/
+[eslint]: https://eslint.org/
+[prettier]: https://prettier.io/
+[jest]: https://jestjs.io/
+[nextjs]: https://nextjs.org/
+[tailwindcss]: https://tailwindcss.com/
+[daisyui]: https://daisyui.com/
+[tauri]: https://v2.tauri.app/
+[capacitorjs]: https://capacitorjs.com/
+[githubpages]: https://pages.github.com/
+
+[gh-typescript]: https://github.com/microsoft/typescript
+[gh-node]: https://github.com/nodejs/node
+[gh-pnpm]: https://github.com/pnpm/pnpm
+[gh-eslint]: https://github.com/eslint/eslint
+[gh-prettier]: https://github.com/prettier/prettier
+[gh-jest]: https://github.com/facebook/jest
+[gh-nextjs]: https://github.com/vercel/next.js
+[gh-tailwindcss]: https://github.com/tailwindlabs/tailwindcss
+[gh-daisyui]: https://github.com/saadeghi/daisyui
+[gh-tauri]: https://github.com/tauri-apps/tauri
+[gh-capacitorjs]: https://github.com/ionic-team/capacitor
+[gh-githubpages]: https://github.com/pages/github
+
+[trpc]: https://trpc.io/
+[prisma]: https://prisma.io/
+[redis]: https://redis.io/
+[mongodb]: https://www.mongodb.com/
+[postgresql]: https://www.postgresql.org/
+[auth.js]: https://authjs.dev/
+[resend]: https://resend.com/
+[lemonsqueezy]: https://www.lemonsqueezy.com/
+
+[gh-trpc]: https://github.com/trpc/trpc
+[gh-prisma]: https://github.com/prisma/prisma
+[gh-redis]: https://github.com/redis/redis
+[gh-mongodb]: https://github.com/mongodb/mongo
+[gh-postgresql]: https://github.com/postgres/postgres
+[gh-authjs]: https://github.com/nextauthjs/next-auth
+[gh-resend]: https://github.com/resend
+[gh-lemonsqueezy]: https://github.com/lmsqueezy/lemonsqueezy.js
+
+<!-- CLI -->
+
+[golang]: https://go.dev/
+[cobra]: https://cobra.dev/
+
+[gh-golang]: https://github.com/golang/go
+[gh-cobra]: https://github.com/spf13/cobra
