@@ -11,9 +11,7 @@
 ## 📦 Installation
 
 ```bash
-curl -fsSL https://github.com/hieudoanm/tg/raw/refs/heads/master/packages/cli/bin/tg -o tg
-chmod +x tg
-sudo mv tg /usr/local/bin/
+curl -fsSL https://raw.githubusercontent.com/hieudoanm/tg/master/packages/cli/scripts/install.sh | bash
 ```
 
 ## 🚀 Usage

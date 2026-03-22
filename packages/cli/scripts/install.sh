@@ -1,27 +1,27 @@
 #!/usr/bin/env bash
+
+# Exit immediately if a command exits with a non-zero status
 set -e
 
-# -------- CONFIGURE --------
-RAW_URL="https://raw.githubusercontent.com/hieudoanm/micro/packages/cli/go.dev/cobra.dev/tg/bin/tg" # <-- Direct raw link to binary
-BINARY_NAME="tg"
-# ----------------------------
+BIN_NAME="tg"
+REPO_URL="https://github.com/hieudoanm/tg/raw/refs/heads/master/packages/cli/bin/tg"
+INSTALL_DIR="/usr/local/bin"
 
-# Default install dir (local)
-TARGET_DIR="$HOME/.local/bin"
+echo "Downloading $BIN_NAME..."
+curl -fsSL "$REPO_URL" -o "$BIN_NAME"
 
-# Check for --global flag
-if [ "$1" = "--global" ]; then
-  TARGET_DIR="/usr/local/bin"
-  echo "Installing $BINARY_NAME globally to $TARGET_DIR..."
-  sudo curl -L "$RAW_URL" -o "$TARGET_DIR/$BINARY_NAME"
-  sudo chmod +x "$TARGET_DIR/$BINARY_NAME"
+echo "Making $BIN_NAME executable..."
+chmod +x "$BIN_NAME"
+
+echo "Installing $BIN_NAME to $INSTALL_DIR..."
+# Move binary to install directory (might require sudo)
+if [ -w "$INSTALL_DIR" ]; then
+    mv "$BIN_NAME" "$INSTALL_DIR/"
 else
-  echo "Installing $BINARY_NAME locally to $TARGET_DIR..."
-  mkdir -p "$TARGET_DIR"
-  curl -L "$RAW_URL" -o "$TARGET_DIR/$BINARY_NAME"
-  chmod +x "$TARGET_DIR/$BINARY_NAME"
-  echo "Ensure $TARGET_DIR is in your PATH:"
-  echo "  export PATH=\"\$HOME/.local/bin:\$PATH\""
+    echo "Privilege escalation required to install to $INSTALL_DIR. Prompting for sudo password..."
+    sudo mv "$BIN_NAME" "$INSTALL_DIR/"
 fi
 
-echo "Installation complete: $BINARY_NAME"
+echo ""
+echo "✅ $BIN_NAME installed successfully to $INSTALL_DIR/$BIN_NAME"
+echo "You can now run '$BIN_NAME version' to verify the installation."
