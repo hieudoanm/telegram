@@ -3,7 +3,7 @@ Copyright © 2025 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "tg/cmd"
+import "github.com/hieudoanm/tg/src/cmd"
 
 func main() {
 	cmd.Execute()
