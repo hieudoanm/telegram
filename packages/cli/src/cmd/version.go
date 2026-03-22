@@ -6,16 +6,14 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// versionCmd represents the version command
+// Version is dynamically set by the compiler during build
+var Version = "dev"
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "Run the version operation for the tg app",
-	Long:  `The version command is a specific utility to execute operations related to version within the tg application.
-
-As a component of the messaging tools, this command empowers you to interact directly with tg's version features via the CLI.`,
+	Short: "Print the version number of the application",
+	Long:  `Print the version number of the application.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		var version = "v0.0.1"
-		fmt.Printf("Telegram CLI version: %s\n", version)
+		fmt.Printf("Version: %s\n", Version)
 	},
 }
 
