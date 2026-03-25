@@ -1,9 +1,9 @@
+import { HeadTemplate } from '../templates/HeadTemplate';
 import { TelegramProvider } from '@telegram/contexts/TelegramContext';
 import '@telegram/styles/globals.css';
 import { trpcHook } from '@telegram/utils/trpc';
 import type { AppProps } from 'next/app';
 import { Geist, Geist_Mono } from 'next/font/google';
-import Head from 'next/head';
 import { FC } from 'react';
 import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
@@ -20,12 +20,7 @@ const geistMono = Geist_Mono({
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
-      <Head>
-        <title>Telegram Mini App</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      <HeadTemplate basic={{ title: 'Telegram Mini App' }} />
       <div className={`${geistSans.className} ${geistMono.className}`}>
         <TonConnectUIProvider manifestUrl="https://hieudoanm-telegram-mini-app.vercel.app/tonconnect-manifest.json">
           <TelegramProvider>
