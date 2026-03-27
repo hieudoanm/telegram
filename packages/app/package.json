@@ -35,7 +35,10 @@
     "build": "next build --turbopack",
     "postbuild": "touch ../../docs/.nojekyll",
     "prestart": "pnpm prisma:generate && kill-port 3000",
-    "start": "next start"
+    "start": "next start",
+    "tauri": "tauri",
+    "dev:desktop": "tauri dev",
+    "build:desktop": "tauri build"
   },
   "dependencies": {
     "@prisma/client": "7.5.0",
@@ -58,7 +61,8 @@
     "zod": "4.3.6",
     "@capacitor/android": "8.3.0",
     "@capacitor/core": "8.3.0",
-    "@capacitor/ios": "8.3.0"
+    "@capacitor/ios": "8.3.0",
+    "@tauri-apps/api": "2.10.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.5",
