@@ -33,7 +33,7 @@
     "test": "jest",
     "prebuild": "pnpm prisma:generate && rimraf .next ../../docs",
     "build": "next build --turbopack",
-    "postbuild": "touch ../../docs/.nojekyll",
+    "postbuild": "sh scripts/sh/post-build.sh",
     "prestart": "pnpm prisma:generate && kill-port 3000",
     "start": "next start",
     "tauri": "tauri",
