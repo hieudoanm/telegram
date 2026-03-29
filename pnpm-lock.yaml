@@ -45,8 +45,8 @@ importers:
         specifier: 16.2.2
         version: 16.2.2(@ton/core@0.63.1(@ton/crypto@3.3.0))(@ton/crypto@3.3.0)
       '@tonconnect/ui-react':
-        specifier: 2.4.2
-        version: 2.4.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: 2.4.4
+        version: 2.4.4(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@trpc/client':
         specifier: 11.15.1
         version: 11.15.1(@trpc/server@11.15.1(typescript@6.0.2))(typescript@6.0.2)
@@ -1280,14 +1280,14 @@ packages:
   '@tonconnect/sdk@3.4.1':
     resolution: {integrity: sha512-eVH8erAFout89gXYHXua/es+mmLPiW1r7ng9hgHKYQv85HLq8/zzQEkbJpbTlnIuQ6CJ/QKchjMsIgYz3BYCUQ==}
 
-  '@tonconnect/ui-react@2.4.2':
-    resolution: {integrity: sha512-wSHZWEvOK9VugIWothDbCW8sAEbwUoi1qHTICTdpK8zusphEzA3cv4RYAcEXkR2YFXrcDgmqLIob4XFBBNYeVQ==}
+  '@tonconnect/ui-react@2.4.4':
+    resolution: {integrity: sha512-4qpAABZK+nsJSQPGAVsj6xPtQ6HkqGIn/M984dNgp5eqVoaVHti0rCMOqcTutb3BScAvWLJoo3hONqNIg2fuEQ==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@tonconnect/ui@2.4.2':
-    resolution: {integrity: sha512-8mr7AAxcg8TQBgzOiOQ8/B5BGvS1DVM+2vSLk5NTqli/eGZzNhk/09wcKYdTH50lQ/WbYoAdZu5StWHZ9R7Dmw==}
+  '@tonconnect/ui@2.4.4':
+    resolution: {integrity: sha512-XgIHAkdimDk+YeRDPsQp7eOz2lM4aScYL3hiTP1Z9YgWRVROjEqTbw5ZP9pt6rgmYTzL26QpqhI6uNTFdYNFIA==}
 
   '@trpc/client@11.15.1':
     resolution: {integrity: sha512-Zav9uPSEM7zBlEbttKep1kCfxHumB7P/e/zVFspzfyeB6XYGVeILFeZVL6cnODkgUIFSzgO9X4fXRnn0BP/BhQ==}
@@ -5690,15 +5690,15 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/ui-react@2.4.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@tonconnect/ui-react@2.4.4(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@tonconnect/ui': 2.4.2
+      '@tonconnect/ui': 2.4.4
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/ui@2.4.2':
+  '@tonconnect/ui@2.4.4':
     dependencies:
       '@tonconnect/sdk': 3.4.1
       classnames: 2.5.1
