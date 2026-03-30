@@ -39,6 +39,9 @@ Tg is a focused project in this monorepo that delivers a practical tool with a c
 - 💻 [CLI](https://github.com/hieudoanm/tg/releases)
 - 📱 [Mobile](https://github.com/hieudoanm/tg/releases)
 - 🖥️ [Desktop](https://github.com/hieudoanm/tg/releases)
+  - 🍎 [MacOS](https://github.com/hieudoanm/tg/releases/tag/macos-latest)
+  - 🐧 [Ubuntu](https://github.com/hieudoanm/tg/releases/tag/ubuntu-latest)
+  - 🪟 [Windows](https://github.com/hieudoanm/tg/releases/tag/windows-latest)
 
 ## 🛠️ 5. Development Stack
 
