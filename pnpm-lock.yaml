@@ -42,8 +42,8 @@ importers:
         specifier: 3.3.0
         version: 3.3.0
       '@ton/ton':
-        specifier: 16.2.2
-        version: 16.2.2(@ton/core@0.63.1(@ton/crypto@3.3.0))(@ton/crypto@3.3.0)
+        specifier: 16.2.3
+        version: 16.2.3(@ton/core@0.63.1(@ton/crypto@3.3.0))(@ton/crypto@3.3.0)
       '@tonconnect/ui-react':
         specifier: 2.4.4
         version: 2.4.4(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -1262,8 +1262,8 @@ packages:
   '@ton/crypto@3.3.0':
     resolution: {integrity: sha512-/A6CYGgA/H36OZ9BbTaGerKtzWp50rg67ZCH2oIjV1NcrBaCK9Z343M+CxedvM7Haf3f/Ee9EhxyeTp0GKMUpA==}
 
-  '@ton/ton@16.2.2':
-    resolution: {integrity: sha512-yEOw4IW3gpRZxJAcILMI4dQ1d5/eAAbD2VU/Iwc6z7f2jt1mLDWVED8yn2vLNucQfZr+1eaqYHLztYVFZ7PKmw==}
+  '@ton/ton@16.2.3':
+    resolution: {integrity: sha512-jHnIn44BIWDZGCutS/3wBe+0Sw+5faRIYmk/cGj7qAnWVLgIphIvMOdZYMJpVO/wVpPtSKdnpjR+/w3ljYcwnw==}
     peerDependencies:
       '@ton/core': '>=0.63.0 <1.0.0'
       '@ton/crypto': '>=3.2.0'
@@ -5665,7 +5665,7 @@ snapshots:
       jssha: 3.2.0
       tweetnacl: 1.0.3
 
-  '@ton/ton@16.2.2(@ton/core@0.63.1(@ton/crypto@3.3.0))(@ton/crypto@3.3.0)':
+  '@ton/ton@16.2.3(@ton/core@0.63.1(@ton/crypto@3.3.0))(@ton/crypto@3.3.0)':
     dependencies:
       '@ton/core': 0.63.1(@ton/crypto@3.3.0)
       '@ton/crypto': 3.3.0
