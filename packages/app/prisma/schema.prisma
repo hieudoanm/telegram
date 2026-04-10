@@ -1,3 +1,8 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
 datasource db {
   provider = "sqlite"
 }
@@ -8,4 +13,17 @@ generator dbml {
 
 generator jsonSchema {
   provider = "prisma-json-schema-generator"
+}
+
+model User {
+  id              Int     @id @default(autoincrement())
+  name            String? @map("name")
+  username        String  @map("username")
+  firstName       String  @map("first_name")
+  lastName        String  @map("last_name")
+  languageCode    String  @map("language_code")
+  photoUrl        String  @map("photo_url")
+  allowsWriteToPM Boolean @map("allows_write_to_pm")
+
+  @@map("users")
 }

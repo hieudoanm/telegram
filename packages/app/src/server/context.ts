@@ -1,4 +1,4 @@
-import { User } from '@prisma/client';
+import { User } from '@telegram/generated/prisma/client';
 import { prismaClient } from '@telegram/prisma/prisma.client';
 import { JWT } from '@telegram/utils/jwt';
 import { tryCatch } from '@telegram/utils/try-catch';
@@ -13,8 +13,8 @@ export const createContext = async ({ req, res }: CreateNextContextOptions) => {
   const authToken: string = cookiesMap.get('auth-token') ?? '';
   if (!authToken) return { req, res, user: null };
   const { user } = JWT().verify(authToken);
-  const { data, error } = await tryCatch(
-    prismaClient.user.findUnique({ where: { id: BigInt(user?.id ?? '0') } })
+  const { data, error } = await tryCatch<User>(
+    prismaClient.user.findUniqueOrThrow({ where: { id: user?.id ?? 0 } })
   );
   if (error) throw Error(error.message);
   if (!data) throw Error('Invalid User');

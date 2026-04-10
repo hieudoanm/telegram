@@ -1,4 +1,4 @@
-import { User } from '@prisma/client';
+import { User } from '@telegram/generated/prisma/client';
 import { prismaClient } from '@telegram/prisma/prisma.client';
 import { tryCatch } from '@telegram/utils/try-catch';
 import { createHmac } from 'node:crypto';
@@ -46,7 +46,7 @@ export const authenticate = async (
     allows_write_to_pm: allowsWriteToPM = false,
   } = telegramUser;
 
-  const { data: user, error } = await tryCatch(
+  const { data: user, error } = await tryCatch<User>(
     prismaClient.user.upsert({
       create: {
         id,

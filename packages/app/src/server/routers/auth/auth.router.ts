@@ -1,4 +1,4 @@
-import { User } from '@prisma/client';
+import { User } from '@telegram/generated/prisma/client';
 import { publicProcedure } from '@telegram/server/trpc';
 import { JWT } from '@telegram/utils/jwt';
 import { tryCatch } from '@telegram/utils/try-catch';

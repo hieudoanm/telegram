@@ -1,3 +1,3 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@telegram/generated/prisma/client';
 
-export const prismaClient = new PrismaClient();
+export const prismaClient = new PrismaClient({ accelerateUrl: '' });

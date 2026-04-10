@@ -1,3 +1,14 @@
 //// ------------------------------------------------------
 //// THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 //// ------------------------------------------------------
+
+Table users {
+  id Int [pk, increment]
+  name String
+  username String [not null]
+  firstName String [not null]
+  lastName String [not null]
+  languageCode String [not null]
+  photoUrl String [not null]
+  allowsWriteToPM Boolean [not null]
+}

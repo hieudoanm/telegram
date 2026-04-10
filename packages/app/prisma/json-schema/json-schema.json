@@ -1,6 +1,40 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "definitions": {},
+  "definitions": {
+    "User": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": ["string", "null"]
+        },
+        "username": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "languageCode": {
+          "type": "string"
+        },
+        "photoUrl": {
+          "type": "string"
+        },
+        "allowsWriteToPM": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
   "type": "object",
-  "properties": {}
+  "properties": {
+    "user": {
+      "$ref": "#/definitions/User"
+    }
+  }
 }

@@ -1,4 +1,4 @@
-import { User } from '@prisma/client';
+import { User } from '@telegram/generated/prisma/client';
 import jwt from 'jsonwebtoken';
 
 const JWT_SECRET = process.env.JWT_SECRET ?? 'super-secret';
