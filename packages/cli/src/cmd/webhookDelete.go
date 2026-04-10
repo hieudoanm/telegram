@@ -4,7 +4,8 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/hieudoanm/tg/src/utils"
+
+	"github.com/hieudoanm/telegram/src/utils"
 
 	"github.com/spf13/cobra"
 )
@@ -17,10 +18,10 @@ type DeleteResponse struct {
 // webhookDeleteCmd represents the telegramWebhookDelete command
 var webhookDeleteCmd = &cobra.Command{
 	Use:   "delete",
-	Short: "Run the delete operation for the tg app",
-	Long:  `The delete command is a specific utility to execute operations related to delete within the tg application.
+	Short: "Run the delete operation for the telegram app",
+	Long: `The delete command is a specific utility to execute operations related to delete within the telegram application.
 
-As a component of the messaging tools, this command empowers you to interact directly with tg's delete features via the CLI.`,
+As a component of the messaging tools, this command empowers you to interact directly with telegram's delete features via the CLI.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		utils.LogProgramName()
 		// Get Telegram Token

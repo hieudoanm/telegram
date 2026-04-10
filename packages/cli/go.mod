@@ -1,4 +1,4 @@
-module github.com/hieudoanm/tg
+module github.com/hieudoanm/telegram
 
 go 1.26.1
 

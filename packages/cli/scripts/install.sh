@@ -3,8 +3,8 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
-BIN_NAME="tg"
-REPO_URL="https://github.com/hieudoanm/tg/raw/refs/heads/master/packages/cli/bin/tg"
+BIN_NAME="telegram"
+REPO_URL="https://github.com/hieudoanm/telegram/raw/refs/heads/master/packages/cli/bin/telegram"
 INSTALL_DIR="/usr/local/bin"
 
 echo "Downloading $BIN_NAME..."

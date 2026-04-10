@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.github.hieudoanm.tg',
+  appId: 'io.github.hieudoanm.telegram',
   appName: 'Telegram',
   webDir: '../../docs',
   android: { path: 'mobile/android' },

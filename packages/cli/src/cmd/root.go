@@ -11,11 +11,11 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "tg",
-	Short: "Tg CLI application (messaging tools)",
-	Long: `The tg CLI application is a comprehensive backend utility belonging to the messaging suite of tools.
+	Use:   "telegram",
+	Short: "Telegram CLI application (messaging tools)",
+	Long: `The telegram CLI application is a comprehensive backend utility belonging to the messaging suite of tools.
 
-Use this root executable to manage configuring, running, and interacting with all tg-related operations securely and efficiently from your terminal.`,
+Use this root executable to manage configuring, running, and interacting with all telegram-related operations securely and efficiently from your terminal.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
@@ -35,7 +35,7 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.github.com/hieudoanm/tg.yaml)")
+	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.github.com/hieudoanm/telegram.yaml)")
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.

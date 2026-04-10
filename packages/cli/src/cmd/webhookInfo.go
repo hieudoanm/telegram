@@ -4,7 +4,8 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/hieudoanm/tg/src/utils"
+
+	"github.com/hieudoanm/telegram/src/utils"
 
 	"github.com/spf13/cobra"
 )
@@ -17,10 +18,10 @@ type GetInfoResponse struct {
 // webhookInfoCmd represents the telegramWebhookGetInfo command
 var webhookInfoCmd = &cobra.Command{
 	Use:   "info",
-	Short: "Run the info operation for the tg app",
-	Long:  `The info command is a specific utility to execute operations related to info within the tg application.
+	Short: "Run the info operation for the telegram app",
+	Long: `The info command is a specific utility to execute operations related to info within the telegram application.
 
-As a component of the messaging tools, this command empowers you to interact directly with tg's info features via the CLI.`,
+As a component of the messaging tools, this command empowers you to interact directly with telegram's info features via the CLI.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		utils.LogProgramName()
 		// Get Telegram Token

@@ -2,7 +2,7 @@ import type { NextConfig } from 'next';
 
 const PLATFORM = process.env.PLATFORM ?? '';
 const NODE_ENV = process.env.NODE_ENV ?? 'development';
-const BASE_PATH = 'tg';
+const BASE_PATH = 'telegram';
 
 const buildConfig: Pick<NextConfig, 'basePath' | 'output' | 'distDir'> =
   PLATFORM !== 'vercel'

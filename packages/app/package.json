@@ -8,13 +8,13 @@
     "mini",
     "app"
   ],
-  "homepage": "https://hieudoanm.github.io/tg",
+  "homepage": "https://hieudoanm.github.io/telegram",
   "bugs": {
-    "url": "https://github.com/hieudoanm/tg/issues"
+    "url": "https://github.com/hieudoanm/telegram/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hieudoanm/tg.git"
+    "url": "git+ssh://git@github.com/hieudoanm/telegram.git"
   },
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

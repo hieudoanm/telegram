@@ -3,7 +3,8 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/hieudoanm/tg/src/utils"
+
+	"github.com/hieudoanm/telegram/src/utils"
 
 	"github.com/spf13/cobra"
 )
@@ -11,10 +12,10 @@ import (
 // messageCmd represents the telegramMessage command
 var messageCmd = &cobra.Command{
 	Use:   "message",
-	Short: "Run the message operation for the tg app",
-	Long:  `The message command is a specific utility to execute operations related to message within the tg application.
+	Short: "Run the message operation for the telegram app",
+	Long: `The message command is a specific utility to execute operations related to message within the telegram application.
 
-As a component of the messaging tools, this command empowers you to interact directly with tg's message features via the CLI.`,
+As a component of the messaging tools, this command empowers you to interact directly with telegram's message features via the CLI.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		utils.LogProgramName()
 		fmt.Println("send - Send Telegram Message")

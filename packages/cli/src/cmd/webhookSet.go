@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/hieudoanm/tg/src/utils"
+	"github.com/hieudoanm/telegram/src/utils"
 )
 
 // SetResponse ...
@@ -18,10 +18,10 @@ type SetResponse struct {
 // webhookSetCmd represents the telegramWebhookSet command
 var webhookSetCmd = &cobra.Command{
 	Use:   "set",
-	Short: "Run the set operation for the tg app",
-	Long:  `The set command is a specific utility to execute operations related to set within the tg application.
+	Short: "Run the set operation for the telegram app",
+	Long: `The set command is a specific utility to execute operations related to set within the telegram application.
 
-As a component of the messaging tools, this command empowers you to interact directly with tg's set features via the CLI.`,
+As a component of the messaging tools, this command empowers you to interact directly with telegram's set features via the CLI.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		utils.LogProgramName()
 		// Get Telegram Token

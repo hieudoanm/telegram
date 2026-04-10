@@ -1,8 +1,8 @@
-# 🚀 [Tg](https://hieudoanm.github.io/tg/)
+# 🚀 [Telegram](https://hieudoanm.github.io/telegram/)
 
 ## 📚 Table of Contents
 
-- [🚀 Tg](#-tg)
+- [🚀 Telegram](#-telegram)
   - [📚 Table of Contents](#-table-of-contents)
   - [📖 1. Overview](#-1-overview)
   - [✨ 2. Features](#-2-features)
@@ -19,11 +19,11 @@
 
 ## 📖 1. Overview
 
-Tg is a focused project in this monorepo that delivers a practical tool with a clean user experience across platforms.
+Telegram is a focused project in this monorepo that delivers a practical tool with a clean user experience across platforms.
 
 ## ✨ 2. Features
 
-1. [x] Core functionality tailored to Tg
+1. [x] Core functionality tailored to Telegram
 2. [x] Web experience for quick access
 3. [x] CLI distribution for automation workflows
 4. [x] Mobile-ready build targets
@@ -31,17 +31,17 @@ Tg is a focused project in this monorepo that delivers a practical tool with a c
 
 ## 🎥 3. Demo
 
-- 🌐 [Live Demo](https://hieudoanm.github.io/tg/)
+- 🌐 [Live Demo](https://hieudoanm.github.io/telegram/)
 
 ## 🚀 4. Usage
 
-- 🌐 [Web](https://hieudoanm.github.io/tg/)
-- 💻 [CLI](https://github.com/hieudoanm/tg/releases)
-- 📱 [Mobile](https://github.com/hieudoanm/tg/releases)
-- 🖥️ [Desktop](https://github.com/hieudoanm/tg/releases)
-  - 🍎 [MacOS](https://github.com/hieudoanm/tg/releases/tag/macos-latest)
-  - 🐧 [Ubuntu](https://github.com/hieudoanm/tg/releases/tag/ubuntu-latest)
-  - 🪟 [Windows](https://github.com/hieudoanm/tg/releases/tag/windows-latest)
+- 🌐 [Web](https://hieudoanm.github.io/telegram/)
+- 💻 [CLI](https://github.com/hieudoanm/telegram/releases)
+- 📱 [Mobile](https://github.com/hieudoanm/telegram/releases)
+- 🖥️ [Desktop](https://github.com/hieudoanm/telegram/releases)
+  - 🍎 [MacOS](https://github.com/hieudoanm/telegram/releases/tag/macos-latest)
+  - 🐧 [Ubuntu](https://github.com/hieudoanm/telegram/releases/tag/ubuntu-latest)
+  - 🪟 [Windows](https://github.com/hieudoanm/telegram/releases/tag/windows-latest)
 
 ## 🛠️ 5. Development Stack
 

@@ -4,7 +4,8 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/hieudoanm/tg/src/utils"
+
+	"github.com/hieudoanm/telegram/src/utils"
 
 	"github.com/spf13/cobra"
 )
@@ -17,10 +18,10 @@ type SendResponse struct {
 // messageSendCmd represents the telegramMessageSend command
 var messageSendCmd = &cobra.Command{
 	Use:   "send",
-	Short: "Run the send operation for the tg app",
-	Long:  `The send command is a specific utility to execute operations related to send within the tg application.
+	Short: "Run the send operation for the telegram app",
+	Long: `The send command is a specific utility to execute operations related to send within the telegram application.
 
-As a component of the messaging tools, this command empowers you to interact directly with tg's send features via the CLI.`,
+As a component of the messaging tools, this command empowers you to interact directly with telegram's send features via the CLI.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		utils.LogProgramName()
 		// Get Telegram Token
